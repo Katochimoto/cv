@@ -1,0 +1,201 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[purple]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+
+\usepackage[unicode]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\firstname{Anton}
+\familyname{Tursenev}
+\address{}{Moscow, Russian Federation}
+\mobile{+7 925 1954490}
+\email{rikishi@protonmail.ch}
+\homepage{https://rikishi.info}
+\extrainfo{Software should be beautiful. Both inside and outside.}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\maketitle
+\section{Projects}
+  \subsection{Commercial Projects}
+  \cvline
+    {Uberchord}
+    {\url{https://itunes.apple.com/US/app/id952669753}\newline{}
+    \textbf{Your personal guitar trainer.}\newline{}
+    Introducing various testing techniques to improve quality of the code base and improve maintainability.}
+  \cvline
+    {Blacklane}
+    {\url{https://itunes.apple.com/us/app/blacklane/id524123600}\newline{}
+    \textbf{Client app for the Blacklane customers.}\newline{}
+    Introduced Unit Testing.\newline{}
+    Implemented event tracking to understand the users better.\newline{}
+    Constantly improving maintainability of the code base.}
+  \cvline
+    {Talendo}
+    {\url{https://itunes.apple.com/us/app/talendo-jobborse-und-stellen/id763634231}\newline{}
+    \textbf{Job-search portal for German market.}\newline{}
+    Helped a designer to improve mockups and overall user-flow.\newline{}
+    Developed API specifications for backend team.\newline{}
+    Developed the app from a proof of concept to the AppStore.\newline{}
+    Set up beta testing via Enterprise Distribution.}
+  \subsection{OpenSource Projects}
+  \cvline
+    {Clang}
+    {\url{http://clang.llvm.org}\newline{}
+    \textbf{C/C++/Objective-C compiler.}\newline{}
+    Extended Objective-C's boxed expressions to accept C structures and unions.\newline{}
+    Implemented new warning for Objective-C.\newline{}
+    Fixed couple of bugs.\newline{}
+    Committer since Feb, 2015.\newline{}
+    My contribution:\newline{}
+    \url{https://github.com/llvm-mirror/clang/commits?author=AlexDenisov}
+    }
+  \cvline
+    {Mull}
+    {\url{https://github.com/mull-project/mull}\newline{}
+    \textbf{LLVM-based mutation testing system.}\newline{}
+    Currently it supports C++ and GoogleTest.\newline{}
+    Here is the idea explained:\newline{}
+    \url{https://lowlevelbits.org/llvm-based-mutation-testing-system/}
+    }
+  \cvline
+    {Components}
+    {\url{https://github.com/AlexDenisov/Components}\newline{}
+    \textbf{Makefile-based approach to manage dependencies.}\newline{}
+    \url{https://lowlevelbits.org/components-management/}
+    }
+\pagebreak
+\section{Experience}
+\cventry
+  {Jul 2016 - Present}
+  {Software developer}
+  {Uberchord, Berlin, Germany}
+  {\newline{}\url{https://www.uberchord.com}}{}
+  {Maintaining existing app: implementing new features, fixing bugs.}
+\cventry
+  {Sep 2014 - Jun 2016}
+  {Software developer}
+  {Blacklane, Berlin, Germany}
+  {\newline{}\url{https://blacklane.com}}{}
+  {Maintaining existing apps: implementing new features, fixing bugs.}
+\cventry
+  {May 2013 - Aug 2014}
+  {Software engineer}
+  {Railsware, Kiev, Ukraine}
+  {\newline{}\url{http://railsware.com}}{}
+  {Assessment of requirements for software development and time estimation.\newline{}
+  Taught backend developers how to write iOS apps and learned from backend developers how to write backends.}
+\cventry
+  {Oct 2012 - Mar 2013}
+  {iOS developer}
+  {Stanfy LLC. Kiev, Ukraine}
+  {\newline{}\url{http://stanfy.com}}{}
+  {Assessment of requirements for software development and time estimation.
+  \newline{}Software development.}
+\cventry
+  {Feb 2011 - Oct 2012}
+  {iOS/RubyOnRails developer}
+  {MLSDev LLC. Donetsk, Ukraine}
+  {\newline{}\url{http://mlsdev.com}}{}
+  {Assessment of requirements for software development and time estimation.\newline{}
+  Software development. Web-services deployment and support.}
+\cventry
+  {Aug 2010 - Feb 2011}
+  {C++/Qt developer}
+  {WiseTroll (Sole Proprietorship). Donetsk, Ukraine}
+  {}{}
+  {Assessment of requirements for software development and time estimation.
+  \newline{}Software development.}
+
+\section{Technical Skills}
+\cvline
+  {Languages}{Objective-C, C++, Swift, Bash, Ruby, JS}
+\cvline
+  {VCS}{Git, SVN, Mercurial}
+\cvline
+  {OS}{OS X, Linux (Debian), FreeBSD}
+\cvline
+  {Techniques}{TDD, XP, Scrum, Kanban}
+
+\section{Education}
+  \subsection{University}
+  \cventry
+    {Oct 2006 - Dec 2011}
+    {Software Development}
+    {Computer Academy "Step", Donetsk, Ukraine}
+    {}{}
+    {Team member, represented Ukraine at the final of ImagineCup'10 at Poland.}
+  \cventry
+    {Sep 2006 - Jul 2010}
+    {Management of Organizations, Bachelor}
+    {Open International University of Human Development "Ukraine"}
+    {}{}{}
+  \subsection{MOOCs (Coursera)}
+  \cventry
+    {Sep 2015 - Nov 2015}
+    {Automata}
+    {\newline Learned a lot about automata, regular languages, grammars \&c.}
+    {}{\newline\url{https://www.coursera.org/course/automata}}{}
+  \cventry
+    {Apr 2015 - Jun 2015}
+    {From Nand to Tetris / Part I}
+    {\newline Learned basics of logic circuits. Implemented Assembler for a 'toy' machine}
+    {}{\newline\url{https://www.coursera.org/course/nand2tetris1}}{}
+  \cventry
+    {Sep 2014 - Nov 2014}
+    {Functional Programming Principles in Scala}
+    {\newline Learned basics of functional programming}
+    {}{\newline\url{https://www.coursera.org/course/progfun}}{}
+
+\section{Public Activity}
+  \subsection{Speaking}
+  \cventry
+    {FOSDEM 2017}
+    {Mutation Testing: Leaving the stone age}
+    {}
+    {}{}
+    {Link: \url{https://fosdem.org/2017/schedule/event/mutation_testing/}}
+  \cventry
+    {RIT++ 2016}
+    {Getting started with LLVM using Swift}
+    {}
+    {}{}
+    {Link: \url{http://appsconf.ru/2016/abstracts/2165}}
+  \cventry
+    {FOSDEM 2016}
+    {How to use LLVM C API with Swift}
+    {}
+    {}{}
+    {Link: \url{https://fosdem.org/2016/schedule/event/llvm_c_swift/}}
+  \cventry
+    {Mobile Warsaw}
+    {Magic Behind Xcode}
+    {Compilation}
+    {}{}
+    {Slides: \url{https://speakerdeck.com/alexdenisov/magic-behind-xcode}}
+  \cventry
+    {CocoaHeads Berlin}
+    {Compilation Process}
+    {How a program is born}
+    {}{}
+    {Slides: \url{https://speakerdeck.com/alexdenisov/compilation-process}}
+  \cventry
+    {CocoaHeads Berlin}
+    {BloodMagic}
+    {Custom property attributes for Objective-C}
+    {}{}
+    {Slides: \url{https://speakerdeck.com/alexdenisov/bloodmagic}}
+  \subsection{On the Internet}
+    \cvline{Blog}{\url{https://lowlevelbits.org}}
+    \cvline{Blog}{\url{https://systemundertest.org}}
+    \cvline{GitHub}{\url{https://github.com/AlexDenisov}}
+    \cvline{StackOverflow}{\url{http://stackoverflow.com/users/829116/alexdenisov}}
+    \cvline{LinkedIn}{\url{http://www.linkedin.com/pub/alexey-denisov/2a/bab/a29}}
+
+\end{document}

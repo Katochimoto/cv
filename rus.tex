@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper]{moderncv}
 
 \moderncvtheme[purple]{classic}
+\usepackage{booktabs}
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.8]{geometry}
 
@@ -20,6 +21,10 @@
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
 
+% \setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+
 \begin{document}
 \maketitle
 \section{Best skills and what I want to do}
@@ -36,6 +41,64 @@
       Working closely with other developers and professionals.
       Improving the skills of the JavaScript.
       Motivating the team to self-development, inspire and organize.}
+
+\section{Technical Skills}
+
+\begin{tabular}{ l||m{4cm}|m{4cm}|m{4cm}|  }
+  & Less than 2 years & From 2 to 5 years & More than 5 years \\
+  \hline\hline
+  Languages & Go & Node.js & JavaScript, HTML, CSS, PHP \\
+  \hline
+  Frameworks & Electron, React Native, Vue, Laravel & React, Redux/Flux & jQuery \\
+  \hline
+  Techniques & & & TDD, DDD, Scrum, Kanban \\
+  \hline
+  DBMS & & PostgreSQL, MySQL & \\
+  \hline
+  VCS & & Git, SVN & \\
+  \hline
+\end{tabular}
+
+\section{Education}
+  \subsection{University}
+  \cventry
+    {Sep 2002 - Jun 2007}
+    {Master of Computer Applications (M.C.A.), Computer science}
+    {\newline Vyatka State University, Kirov, Russia}
+    {}{}
+    {Studied Computer Science with some focus Artificial Intelligence.}
+
+\newpage
+
+\section{Experience}
+\cventry
+  {Mar 2018 - Present}
+  {Web developer}
+  {Fonseka Innovations Pty. Ltd., Brisbane, Australia}
+  {\newline{}\url{https://fonsekainnovations.com}}{}
+  {Design, develop, test and deploy web and mobile applications.}
+\cventry
+  {Dec 2016 - Dec 2017}
+  {Frontend developer}
+  {Mail.Ru LLC, Moscow, Russia}
+  {\newline{}\url{https://mail.ru}}{}
+  {Development the user interface of the web version of the calendar.}
+\cventry
+  {Jan 2013 - Dec 2016}
+  {Team leader of the group for development of interfaces for postal services}
+  {Yandex LLC, Moscow, Russia}
+  {\newline{}\url{https://yandex.com}}{}
+  {Development the user interface of the web version of the e-mail and other related projects.
+  Organization of development in the team.\newline{}
+  Training of new developers.}
+\cventry
+  {Apr 2006 - Dec 2012}
+  {Web developer}
+  {Lightsoft Research LLC, Moscow, Russia}
+  {\newline{}\url{http://lightsoft.com}}{}
+  {Development of server and client side projects for tourism.\newline{}
+  Organization of development in the team.\newline{}
+  Training of new developers.}
 
 \section{Projects}
   \subsection{Commercial Projects}
@@ -101,58 +164,6 @@
     {\url{https://katochimoto.github.io/xblocks/}\newline{}
     \textbf{HTML custom elements on the basis React and X-Tag.}\newline{}
     The launch of the project.}
-\section{Experience}
-\cventry
-  {Mar 2018 - Present}
-  {Web developer}
-  {Fonseka Innovations Pty. Ltd., Brisbane, Australia}
-  {\newline{}\url{https://fonsekainnovations.com}}{}
-  {Design, develop, test and deploy web and mobile applications.}
-\cventry
-  {Dec 2016 - Dec 2017}
-  {Frontend developer}
-  {Mail.Ru LLC, Moscow, Russia}
-  {\newline{}\url{https://mail.ru}}{}
-  {Development the user interface of the web version of the calendar.}
-\cventry
-  {Jan 2013 - Dec 2016}
-  {Frontend developer}
-  {Yandex LLC, Moscow, Russia}
-  {\newline{}\url{https://yandex.com}}{}
-  {Development the user interface of the web version of the e-mail and other related projects.
-  Organization of development in the team.\newline{}
-  Training of new developers.}
-\cventry
-  {Apr 2006 - Dec 2012}
-  {Web developer}
-  {Lightsoft Research LLC, Moscow, Russia}
-  {\newline{}\url{http://lightsoft.com}}{}
-  {Development of server and client side projects for tourism.\newline{}
-  Organization of development in the team.\newline{}
-  Training of new developers.}
-
-\section{Technical Skills}
-\cvline
-  {Languages}{JavaScript, HTML, CSS, PHP}
-\cvline
-  {DBMS}{PostgreSQL}
-\cvline
-  {VCS}{Git, SVN}
-\cvline
-  {Frameworks}{React, Redux/Flux, Electron, React Native, etc.}
-\cvline
-  {Techniques}{TDD, DDD, Scrum, Kanban}
-
-\newpage
-
-\section{Education}
-  \subsection{University}
-  \cventry
-    {Sep 2002 - Jun 2007}
-    {Master of Computer Applications (M.C.A.), Computer science}
-    {\newline Vyatka State University, Kirov, Russia}
-    {}{}
-    {Studied Computer Science with some focus Artificial Intelligence.}
 
 \section{Public Activity}
   \subsection{On the Internet}
